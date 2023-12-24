@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Slider</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image fade">
+        <img
+          src="images/2022-jeep-grand-cherokee-l-nissan-patrol-ti-l-comparison-HERO.jpg"
+          alt=""
+          width="100%"
+        />
+      </div>
+
+      <div class="image fade">
+        <img
+          src="images/2024-lamborghini-revuelto-127-641a1d518802b.jpg"
+          alt=""
+          width="100%"
+        />
+      </div>
+
+      <div class="image fade">
+        <img
+          src="images/se-image-d37f5243f6ae21dcfb1fbf28dfe261f5.jpg"
+          alt=""
+          width="100%"
+        />
+      </div>
+
+      <div class="image fade">
+        <img src="images/unnamed.jpg" alt="" width="100%" />
+      </div>
+      <i id="prev" onclick="show_image(-1)" class="fa-solid fa-angles-left"></i>
+      <i id="next" onclick="show_image(1)" class="fa-solid fa-angles-right"></i>
+
+      <div class="dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </body>
+  <script src="javaScript.js"></script>
+</html>
